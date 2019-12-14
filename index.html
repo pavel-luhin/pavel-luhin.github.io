@@ -1,57 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-140604321-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-140604321-1');
-    </script>
-
-    <meta charset="UTF-8">
-    <meta charset="UTF-8">
-    <meta name="description" content="Pavel Luhin's personal web site with basic links and contacts">
-    <meta name="keywords" content="Java,Kotlin,JavaScript,Spring,Developer,Hibernate,JPA,MySQL,resume">
-    <meta name="author" content="Pavel Luhin">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pavel Luhin's personal site</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="styles/index.css">
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <meta charset="utf-8">
+    <title>Pavel Luhin's Personal Site</title>
 </head>
 <body>
-
-    <div class="container">
-        <div class="links">
-            <h3 class="text-center">Hello! My name is Pavel Luhin</h3>
-            <div class="text-center">
-                <a class="link" href="https://github.com/pavel-luhin"><img class="icon" src="icons/github.svg"/></a>
-                <a class="link" href="https://linkedin.com/in/pluhin/"><img class="icon" src="icons/linkedin.svg"/></a>
-            </div>
+<div>
+    <div class="personal-container">
+        <div class="offset-md-2 col-md-6">
+            <p class="text">Hi! My name is</p>
+            <p class="main-text">Pavel Luhin</p>
         </div>
-        <div class="contacts">
-            <h3 class="text-center">Please contact me with the following links:</h3>
-            <div class="text-center">
-                <a class="link" href="skype:yamaneko_xd"><img class="icon" src="icons/skype.svg"/></a>
-                <a class="link" href="tg://pavel_luhin"><img class="icon" src="icons/telegram.svg"/></a>
-                <a class="link" href="mailto:pavel@pluhin.com"><img class="icon" src="icons/gmail.svg"/></a>
-            </div>
+        <a class="ct-btn-scroll ct-js-btn-scroll" href="#summary"><img alt="Arrow Down Icon" src="https://www.solodev.com/assets/anchor/arrow-down.png"></a>
+    </div>
+    <hr>
+    <div class="personal-container" id="summary">
+        <div class="offset-md-2 col-md-6">
+            <p class="main-text">I am</p>
+            <p class="text">Skilled Java Developer with 5+ years of experience of creating and supporting applications
+                from
+                Minsk.</p>
+            <p class="text">Good knowledges of Java Core and general technologies, such as: Spring, Hibernate, JPA.
+                Clear
+                understanding
+                of Object Oriented Programming semantics, microservices and cloud computing, Design Patterns and
+                multithreading. Have little experience to work with Python, C#, Android SDK.
+                Spearheaded a team that won YIP2016. Effective team worker, disciplined and attentive to detail. </p>
         </div>
     </div>
+    <hr>
+    <div class="personal-container" id="experience">
+        <div class="offset-md-2 col-md-8">
+            <p class="text">Professional Experience</p>
+            <p class="company-name"><span class="idfinance-logo"></span> ID Finance. 08.2019 - Current</p>
+            <ul>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+            </ul>
+            <p class="company-name"><span class="godel-logo"></span> Godel Technologies Europe - 08.2019 - 08.2019</p>
+            <ul>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+            </ul>
+            <p class="company-name"><span class="exadel-logo"></span> Exadel - 08.2019 - 08.2019</p>
+            <ul>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+                <li>Implemented microservices for business purpose</li>
+            </ul>
+        </div>
+    </div>
+    <div class="personal-container" id="contacts">
+        <div class="offset-md-2 col-md-6">
+            <p class="text">Contacts</p>
+            <p></p>
+        </div>
+    </div>
+</div>
 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/711c1eeb22.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
 </body>
 </html>

@@ -1,19 +1,30 @@
-.container {
-    margin-top: 250px;
+.company-name {
+  font-size: 2em;
+}
+.text {
+  font-size: 2em;
 }
 
-.icon {
-    width: 50px;
+.personal-container {
+  margin-top: 250px;
+  height: 90vh;
 }
 
-.link {
-    margin-right: 20px;
+.main-text {
+  font-size: 8em;
 }
 
-.links {
-    margin-bottom: 100px;
+.idfinance-logo {
+  content: url("https://media.licdn.com/dms/image/C4D0BAQFkygd0rEo38A/company-logo_200_200/0?e=2159024400&v=beta&t=VHgIYhGDD7jQ-pe4Zk0MDpQMPlG5y7n5p-Os8KwK_iY");
+  width: 30px;
 }
 
-.contacts {
-    margin-bottom: 100px;
+.exadel-logo {
+  content: url("https://jobs.tut.by/employer-logo/2127879.png");
+  width: 30px;
+}
+
+.godel-logo {
+  content: url("https://media.licdn.com/dms/image/C4E0BAQF6vs8qh7Sm2g/company-logo_200_200/0?e=2159024400&v=beta&t=phr76b-baGhJAJKZbstPGw2Ttyu2aK2e9zbkeymUk7Y");
+  width: 50px;
 }
